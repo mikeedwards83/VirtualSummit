@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {AC5DFC10-6213-4783-9C40-F6A2785DA62D}
+id: {8E22728B-0844-411D-BC83-89DCCA32E624}
 database: master
-path: /sitecore/templates/VirtualSummit/Base/PageTitles/Data/LongTitle
-parent: {56591837-A42A-42D3-AF07-1075C157C956}
+path: /sitecore/templates/VirtualSummit/Base/PageTitles/Titles/LongTitle
+parent: {E55638BC-7C19-4F14-8F0E-9807A53786E6}
 name: LongTitle
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
@@ -26,43 +26,29 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 6ae04c40-3bc3-4767-ac3b-1375e12739d1
+revision: 8f66b4dd-9b2f-4962-92cd-76109b33775d
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130913T075501
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
+20130917T065834
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-6ae04c40-3bc3-4767-ac3b-1375e12739d1
+8f66b4dd-9b2f-4962-92cd-76109b33775d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130913T075501:635146557012447762
+20130917T065834:635149979148927418
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,13 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<VirtualSummit.ViewModels.FeaturedNews.IndexGet>
+              
+<h1>@Model.FeaturedNews.LongTitle</h1>
+
+<h2>Featured news</h2>
+<ul>
+    @foreach (var article in Model.Articles)
+    {
+        <li>
+            <a href="@article.Url">@article.Date.ToString("yyyy mmmm dd") @article.LongTitle</a>
+        </li>
+    }
+</ul>

@@ -108,3 +108,6 @@ Backup*/
 UpgradeLog*.XML
 Source/VirtualSummit.Master/IconCache/
 Source/VirtualSummit.Master/T4RenderCache
+Depends/Sitecore/Sitecore.Kernel.dll
+Depends/Sitecore/Sitecore.Logging.dll
+Depends/Sitecore/Sitecore.Mvc.dll

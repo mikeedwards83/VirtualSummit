@@ -1,33 +1,26 @@
 ----item----
 version: 1
-id: {56591837-A42A-42D3-AF07-1075C157C956}
+id: {7FCF7CA3-39AF-499E-AC58-142CA58BCD3D}
 database: master
-path: /sitecore/templates/VirtualSummit/Base/PageTitles/Data
-parent: {81D9FECD-BEE1-4670-8A3E-86DC3C78275C}
-name: Data
+path: /sitecore/templates/VirtualSummit/Pages
+parent: {5C7DF111-CD6B-4BD4-BDFE-BA082E477B56}
+name: Pages
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
 
 ----version----
 language: en
 version: 1
-revision: cc8e0f4e-b41f-4c1d-9b8d-7fb7e0e156b7
+revision: 25a1b525-49d7-468e-a68c-ccd5d41d3daa
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130913T075500
+20130917T075400
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cc8e0f4e-b41f-4c1d-9b8d-7fb7e0e156b7
+25a1b525-49d7-468e-a68c-ccd5d41d3daa
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130913T075500:635146557009419199
+20130917T075404:635150012443999008
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

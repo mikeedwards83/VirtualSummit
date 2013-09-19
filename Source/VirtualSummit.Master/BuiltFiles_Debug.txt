@@ -1,0 +1,50 @@
+.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.xml
+.\Debug\Global.asax
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\BehindRazor.xml
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\DynamicRazor.xml
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\TypedRazor.xml
+.\Debug\packages.config
+.\Debug\App_Config\Include\Glass.Mapper.Sc.Mvc.config
+.\Debug\App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.cs.temp
+.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
+.\Debug\App_Config\Include\Glass.Mapper.Sc.Razor.config
+.\Debug\Web.config
+.\Debug\Layouts\DemoTyped.cshtml
+.\Debug\Views\FeaturedNews\Index.cshtml
+.\Debug\Layouts\MvcLayout.cshtml
+.\Debug\bin\Castle.Core.dll
+.\Debug\bin\Castle.Core.xml
+.\Debug\bin\Castle.Windsor.dll
+.\Debug\bin\Castle.Windsor.xml
+.\Debug\bin\Glass.Mapper.dll
+.\Debug\bin\Glass.Mapper.Sc.CastleWindsor.dll
+.\Debug\bin\Glass.Mapper.Sc.CastleWindsor.xml
+.\Debug\bin\Glass.Mapper.Sc.dll
+.\Debug\bin\Glass.Mapper.Sc.Razor.CastleWindsor.dll
+.\Debug\bin\Glass.Mapper.Sc.Razor.CastleWindsor.xml
+.\Debug\bin\Glass.Mapper.Sc.Razor.dll
+.\Debug\bin\Glass.Mapper.Sc.Razor.xml
+.\Debug\bin\Glass.Mapper.Sc.xml
+.\Debug\bin\Glass.Mapper.xml
+.\Debug\bin\Microsoft.Web.Infrastructure.dll
+.\Debug\bin\RazorEngine.dll
+.\Debug\bin\RazorEngine.pdb
+.\Debug\bin\RazorEngine.xml
+.\Debug\bin\SimpleInjector.dll
+.\Debug\bin\SimpleInjector.Integration.Web.dll
+.\Debug\bin\SimpleInjector.Integration.Web.Mvc.dll
+.\Debug\bin\SimpleInjector.Integration.Web.Mvc.xml
+.\Debug\bin\SimpleInjector.Integration.Web.xml
+.\Debug\bin\SimpleInjector.xml
+.\Debug\bin\Sitecore.Kernel.dll
+.\Debug\bin\Sitecore.Mvc.dll
+.\Debug\bin\System.Web.Razor.dll
+.\Debug\bin\System.Web.Razor.xml
+.\Debug\bin\VirtualSummit.dll
+.\Debug\bin\VirtualSummit.pdb
+.\Debug\bin\WebActivator.dll
+.\Debug\bin\WebActivatorEx.dll

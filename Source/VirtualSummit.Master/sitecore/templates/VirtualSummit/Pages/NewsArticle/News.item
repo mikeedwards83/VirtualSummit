@@ -1,40 +1,26 @@
 ----item----
 version: 1
-id: {542A4BCE-8211-4B97-8EC9-6D201D5F2AF1}
+id: {20FB7729-C1C7-4ED6-A647-7E673D5060AF}
 database: master
-path: /sitecore/templates/VirtualSummit/Base/PageTitles/Data/ShortTitle
-parent: {56591837-A42A-42D3-AF07-1075C157C956}
-name: ShortTitle
+path: /sitecore/templates/VirtualSummit/Pages/NewsArticle/News
+parent: {24F5866E-0B1A-4C18-93B1-1B331DE47D5D}
+name: News
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
 
-----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 16
-
-Single-Line Text
 ----version----
 language: en
 version: 1
-revision: 1d21cf34-feda-4967-9bf6-2f6fa4a087f0
+revision: 86868b60-6a51-4961-b3bf-376ab90481e8
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130913T075501
+20130919T185109
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1d21cf34-feda-4967-9bf6-2f6fa4a087f0
+86868b60-6a51-4961-b3bf-376ab90481e8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130913T075501:635146557010569527
+20130919T185109:635152134691535898
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

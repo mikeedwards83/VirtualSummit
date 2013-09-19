@@ -1,4 +1,4 @@
-?<#@ import namespace="HedgehogDevelopment.CodeGeneration.Extensions" #>
+<#@ import namespace="HedgehogDevelopment.CodeGeneration.Extensions" #>
 <#@ assembly name="HedgehogDevelopment.CodeGeneration.Extensions.dll" #>
 
 <#+	

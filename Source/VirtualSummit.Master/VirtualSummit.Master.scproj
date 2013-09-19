@@ -7,7 +7,7 @@
     <ProjectGuid>2d1f5735-badc-4bc0-924e-6eaee5e3cc9e</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <SourceWebPhysicalPath>..\VirtualSummit</SourceWebPhysicalPath>
-    <SourceWebProject>{d7ba8853-42e5-4406-8493-d8cf0a9a2533}|VirtualSummit\VirtualSummit.csproj</SourceWebProject>
+    <SourceWebProject>{d7ba8853-42e5-4406-8493-d8cf0a9a2533}|Source\VirtualSummit\VirtualSummit.csproj</SourceWebProject>
     <SourceWebVirtualPath>/VirtualSummit.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
@@ -24,7 +24,7 @@
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
     <BaseTransformFile>GlassV3Item.tt</BaseTransformFile>
     <HeaderTransformFile>GlassV3Header.tt</HeaderTransformFile>
-    <CodeGenFile>Models.cs</CodeGenFile>
+    <CodeGenFile>Models/TdsGenerated.cs</CodeGenFile>
     <CodeGenTargetProject>VirtualSummit</CodeGenTargetProject>
     <BaseNamespace>Models</BaseNamespace>
   </PropertyGroup>
@@ -51,14 +51,6 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <CodeGenTemplate Include="Code Generation Templates\GlassV3Header.tt" />
-    <CodeGenTemplate Include="Code Generation Templates\GlassV3Item.tt" />
-    <CodeGenTemplate Include="Code Generation Templates\Helpers.tt" />
-  </ItemGroup>
-  <ItemGroup>
     <SitecoreItem Include="sitecore\templates.item">
       <Icon>/temp/IconCache/Software/16x16/component_yellow.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -74,28 +66,94 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\Content.item">
+      <Icon>/temp/IconCache/Applications/32x32/form_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\Content\Content.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\Content\Content\Body.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <Icon>/temp/IconCache/Applications/32x32/form_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Data.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Data\FeatureTitle.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Titles.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Data\LongTitle.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Titles\FeatureTitle.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Data\ShortTitle.item">
-      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Titles\LongTitle.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Base\PageTitles\Titles\ShortTitle.item">
+      <Icon>/~/icon/Applications/32x32/Document.png.aspx</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\FeaturedNews.item">
+      <Icon>/temp/IconCache/Applications/16x16/form_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\FeaturedNews\__Standard Values.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\General.item">
+      <Icon>/temp/IconCache/Applications/16x16/form_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\NewsArticle.item">
+      <Icon>/temp/IconCache/Applications/16x16/form_blue.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\NewsArticle\News.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\NewsArticle\News\Date.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\VirtualSummit\Pages\NewsArticle\News\Featured.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeGenTemplate Include="Code Generation Templates\GlassV3Header.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\GlassV3Item.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\Helpers.tt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
 </Project>

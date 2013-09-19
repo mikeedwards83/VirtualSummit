@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualSummit", "Source\Vir
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "VirtualSummit.Master", "Source\VirtualSummit.Master\VirtualSummit.Master.scproj", "{2D1F5735-BADC-4BC0-924E-6EAEE5E3CC9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualSummit.Tests", "Source\VirtualSummit.Tests\VirtualSummit.Tests.csproj", "{97C457C8-D27F-4727-949B-98E31C7506FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2D1F5735-BADC-4BC0-924E-6EAEE5E3CC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1F5735-BADC-4BC0-924E-6EAEE5E3CC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D1F5735-BADC-4BC0-924E-6EAEE5E3CC9E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{97C457C8-D27F-4727-949B-98E31C7506FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C457C8-D27F-4727-949B-98E31C7506FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C457C8-D27F-4727-949B-98E31C7506FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C457C8-D27F-4727-949B-98E31C7506FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

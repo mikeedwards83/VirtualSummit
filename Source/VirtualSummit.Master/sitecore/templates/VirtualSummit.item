@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {D92DD89B-DD66-49E2-BE3C-D709D701E8F3}
+id: {5C7DF111-CD6B-4BD4-BDFE-BA082E477B56}
 database: master
 path: /sitecore/templates/VirtualSummit
 parent: {3C1715FE-6A13-4FCF-845F-DE308BA9741D}
@@ -12,22 +12,15 @@ templatekey: Template Folder
 ----version----
 language: en
 version: 1
-revision: 5b2a3078-920e-4f89-8a2a-7a6ae810e949
+revision: 5a2a97c2-ee6b-42b6-954e-39955118f543
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 15
 
-20130913T075006
+20130917T065740
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5b2a3078-920e-4f89-8a2a-7a6ae810e949
+5a2a97c2-ee6b-42b6-954e-39955118f543
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130913T075013:635146554139949946
+20130917T065748:635149978680409022
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
