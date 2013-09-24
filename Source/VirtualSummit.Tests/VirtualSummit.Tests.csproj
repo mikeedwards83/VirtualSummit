@@ -34,10 +34,10 @@
       <HintPath>..\..\packages\Castle.Core.3.2.0\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Glass.Mapper">
-      <HintPath>..\..\packages\Glass.Mapper.3.0.5.49-beta\lib\net40\Glass.Mapper.dll</HintPath>
+      <HintPath>..\..\packages\Glass.Mapper.3.0.5.51-beta\lib\net40\Glass.Mapper.dll</HintPath>
     </Reference>
     <Reference Include="Glass.Mapper.Sc">
-      <HintPath>..\..\packages\Glass.Mapper.Sc.3.0.6.63-beta\lib\net40\Glass.Mapper.Sc.dll</HintPath>
+      <HintPath>..\..\packages\Glass.Mapper.Sc.3.0.6.65-beta\lib\net40\Glass.Mapper.Sc.dll</HintPath>
     </Reference>
     <Reference Include="NSubstitute">
       <HintPath>..\..\packages\NSubstitute.1.6.1.0\lib\NET40\NSubstitute.dll</HintPath>

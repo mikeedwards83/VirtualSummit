@@ -45,13 +45,13 @@
     <Reference Include="Castle.Windsor">
       <HintPath>..\..\packages\Castle.Windsor.3.2.1\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper, Version=3.0.5.49, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Glass.Mapper, Version=3.0.5.51, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Glass.Mapper.3.0.5.49-beta\lib\net40\Glass.Mapper.dll</HintPath>
+      <HintPath>..\..\packages\Glass.Mapper.3.0.5.51-beta\lib\net40\Glass.Mapper.dll</HintPath>
     </Reference>
-    <Reference Include="Glass.Mapper.Sc, Version=3.0.6.63, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Glass.Mapper.Sc, Version=3.0.6.65, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Glass.Mapper.Sc.3.0.6.63-beta\lib\net40\Glass.Mapper.Sc.dll</HintPath>
+      <HintPath>..\..\packages\Glass.Mapper.Sc.3.0.6.65-beta\lib\net40\Glass.Mapper.Sc.dll</HintPath>
     </Reference>
     <Reference Include="Glass.Mapper.Sc.CastleWindsor, Version=3.0.4.39, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -129,10 +129,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Gls\Mapper\Sc\Configuration\Attributes\SitecoreSearch.cs" />
     <Compile Include="Models\GlassBase.cs" />
+    <Compile Include="Models\ILazyModelMaker.cs" />
     <Compile Include="Models\sitecore\templates\VirtualSummit\Pages\FeaturedNews.cs" />
     <Compile Include="Models\TdsGenerated.cs" />
-    <Compile Include="Pipelines\ConfigurationResolver\InterfaceInjection.cs" />
+    <Compile Include="Gls\Mapper\Pipelines\ConfigurationResolver\InterfaceInjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleInjectorExtensions.cs" />
     <Compile Include="SitecoreX\Data\Comparers\FeaturedNewsComparer.cs" />
@@ -159,6 +161,7 @@
     <None Include="App_Config\Include\Sitecore.MvcExperienceEditor.config" />
     <None Include="App_Config\Include\Sitecore.MvcSimulator.config" />
     <Content Include="Layouts\GlassRazor\DemoDynamic.cshtml" />
+    <Content Include="Layouts\GlassRazor\LazyLayout.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -167,7 +170,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Gls\Mapper\Sc\DataMappers\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
