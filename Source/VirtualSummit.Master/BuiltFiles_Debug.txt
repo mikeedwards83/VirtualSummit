@@ -1,23 +1,24 @@
 .\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.xml
 .\Debug\Global.asax
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\BehindRazor.xml
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\DynamicRazor.xml
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\TypedRazor.xml
 .\Debug\packages.config
 .\Debug\App_Config\Include\Glass.Mapper.Sc.Mvc.config
 .\Debug\App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp
-.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.cs.temp
-.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
-.\Debug\App_Config\Include\Glass.Mapper.Sc.Razor.config
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\BehindRazor.xml
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\DynamicRazor.xml
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\TypedRazor.xml
 .\Debug\Web.config
 .\Debug\Layouts\GlassRazor\DemoTyped.cshtml
 .\Debug\Views\FeaturedNews\Index.cshtml
 .\Debug\Layouts\MvcLayout.cshtml
+.\Debug\App_Config\Include\Glass.Mapper.Sc.Razor.config
 .\Debug\Layouts\GlassRazor\DemoDynamic.cshtml
 .\Debug\Layouts\GlassRazor\LazyLayout.cshtml
+.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
+.\Debug\Layouts\GlassRazor\DemoBehind.cshtml
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp
+.\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.cs.temp
 .\Debug\bin\Castle.Core.dll
 .\Debug\bin\Castle.Core.xml
 .\Debug\bin\Castle.Windsor.dll

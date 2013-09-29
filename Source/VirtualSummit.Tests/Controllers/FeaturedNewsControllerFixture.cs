@@ -23,7 +23,10 @@ namespace VirtualSummit.Tests.Controllers
             var featuredNews = new FeaturedNews();
 
             var article = new NewsArticle();
+            article.Featured = true;
+
             featuredNews.NewsArticles = new []{article};
+            
 
             var context = Substitute.For<ISitecoreContext>();
             context.GetCurrentItem<FeaturedNews>().Returns(featuredNews);
