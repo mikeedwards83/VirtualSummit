@@ -1,14 +1,2 @@
 @inherits Glass.Mapper.Sc.Razor.Web.Ui.DynamicTemplate
 
-<h1>@Model.ShortTitle.Editable()</h1>
-@Raw(Model.FeaturedImage.Editable())
-
-<ul>
-    @foreach (var child in Model.Children)
-    {
-        <li>
-            <a href="@child.Url">@Model.ShortTitle</a>
-        </li>    
-    }
-    
-</ul>

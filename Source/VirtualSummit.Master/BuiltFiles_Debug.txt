@@ -15,6 +15,7 @@
 .\Debug\Layouts\GlassRazor\LazyLayout.cshtml
 .\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
 .\Debug\Layouts\GlassRazor\DemoBehind.cshtml
+.\Debug\App_Config\Include\VirtualSummit.config
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp
@@ -33,7 +34,11 @@
 .\Debug\bin\Glass.Mapper.Sc.Razor.xml
 .\Debug\bin\Glass.Mapper.Sc.xml
 .\Debug\bin\Glass.Mapper.xml
+.\Debug\bin\Hammock.ClientProfile.dll
+.\Debug\bin\Hammock.ClientProfile.pdb
 .\Debug\bin\Microsoft.Web.Infrastructure.dll
+.\Debug\bin\Newtonsoft.Json.dll
+.\Debug\bin\Newtonsoft.Json.xml
 .\Debug\bin\RazorEngine.dll
 .\Debug\bin\RazorEngine.pdb
 .\Debug\bin\RazorEngine.xml
@@ -48,6 +53,8 @@
 .\Debug\bin\Sitecore.Mvc.dll
 .\Debug\bin\System.Web.Razor.dll
 .\Debug\bin\System.Web.Razor.xml
+.\Debug\bin\TweetSharp.dll
+.\Debug\bin\TweetSharp.pdb
 .\Debug\bin\VirtualSummit.dll
 .\Debug\bin\VirtualSummit.pdb
 .\Debug\bin\WebActivator.dll

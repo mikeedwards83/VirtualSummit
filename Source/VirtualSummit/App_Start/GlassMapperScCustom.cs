@@ -1,12 +1,14 @@
 using System.Collections.Generic;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using Glass.Mapper;
 using Glass.Mapper.Configuration;
 using Glass.Mapper.Pipelines.ConfigurationResolver;
 using Glass.Mapper.Sc.CastleWindsor;
 using Glass.Mapper.Sc.Configuration.Attributes;
 using Sitecore.SecurityModel;
 using VirtualSummit.Gls.Mapper.Pipelines.ConfigurationResolver;
+using VirtualSummit.Gls.Mapper.Sc.DataMappers;
 
 namespace VirtualSummit.App_Start
 {
@@ -16,15 +18,15 @@ namespace VirtualSummit.App_Start
 			var config = new Config();
 
 		    container.Register(
-                Component.For<IConfigurationResolverTask>().ImplementedBy<InterfaceInjection>()
-
+                Component.For<IConfigurationResolverTask>().ImplementedBy<InterfaceInjection>(),
+                Component.For<AbstractDataMapper>().ImplementedBy<TweetDataMapper>()
                 );
 			container.Install(new SitecoreInstaller(config));
 		}
 
 		public static IConfigurationLoader[] GlassLoaders(){
 			var attributes = new SitecoreAttributeConfigurationLoader("VirtualSummit");
-			
+		  
 			return new IConfigurationLoader[]{attributes};
 		}
 		public static void PostLoad(){

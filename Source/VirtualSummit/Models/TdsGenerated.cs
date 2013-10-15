@@ -411,6 +411,146 @@ namespace VirtualSummit.Models.sitecore.templates.VirtualSummit.Pages
 
 
 
+namespace VirtualSummit.Models.sitecore.templates.VirtualSummit.Settings
+{
+
+
+ 	/// <summary>
+	/// ITwitterSettings Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/VirtualSummit/Settings/TwitterSettings</para>	
+	/// <para>ID: 32afc3d4-3b42-4b42-a681-cf1581ff89d3</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=TwitterSettings.TemplateIdString)]
+	public partial interface ITwitterSettings : IGlassBase 
+	{
+		/// <summary>
+		/// The AccessToken field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: a0a1cd5f-d1fa-4b3b-9251-dac1a9636d58</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[SitecoreField(TwitterSettings.AccessTokenFieldName)]
+		string AccessToken  {get; set;}
+			
+		/// <summary>
+		/// The AccessTokenSecret field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 38ab8a6a-c8c5-4217-af3a-eccdcf11a555</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[SitecoreField(TwitterSettings.AccessTokenSecretFieldName)]
+		string AccessTokenSecret  {get; set;}
+			
+		/// <summary>
+		/// The ConsumerKey field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 88a8699c-fcd9-45aa-9364-3d6f391a35e6</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[SitecoreField(TwitterSettings.ConsumerKeyFieldName)]
+		string ConsumerKey  {get; set;}
+			
+		/// <summary>
+		/// The ConsumerSecret field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 747eb247-5d0e-448b-bea1-a500b0debd26</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[SitecoreField(TwitterSettings.ConsumerSecretFieldName)]
+		string ConsumerSecret  {get; set;}
+			
+	}
+
+	
+	/// <summary>
+	/// TwitterSettings
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/VirtualSummit/Settings/TwitterSettings</para>	
+	/// <para>ID: 32afc3d4-3b42-4b42-a681-cf1581ff89d3</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=TwitterSettings.TemplateIdString)]
+	public partial class TwitterSettings  : GlassBase, ITwitterSettings 
+	{
+	    
+		public const string TemplateIdString = "32afc3d4-3b42-4b42-a681-cf1581ff89d3";
+		public static readonly ID TemplateId = new ID(TemplateIdString);
+		public const string TemplateName = "TwitterSettings";
+
+		/// <summary>
+		/// The AccessToken field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: a0a1cd5f-d1fa-4b3b-9251-dac1a9636d58</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+		[SitecoreField(TwitterSettings.AccessTokenFieldName)]
+		public virtual string AccessToken  {get; set;}
+
+		public static readonly ID AccessTokenFieldId = new ID("a0a1cd5f-d1fa-4b3b-9251-dac1a9636d58");
+		public const string AccessTokenFieldName = "AccessToken";
+			
+		/// <summary>
+		/// The AccessTokenSecret field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 38ab8a6a-c8c5-4217-af3a-eccdcf11a555</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+		[SitecoreField(TwitterSettings.AccessTokenSecretFieldName)]
+		public virtual string AccessTokenSecret  {get; set;}
+
+		public static readonly ID AccessTokenSecretFieldId = new ID("38ab8a6a-c8c5-4217-af3a-eccdcf11a555");
+		public const string AccessTokenSecretFieldName = "AccessTokenSecret";
+			
+		/// <summary>
+		/// The ConsumerKey field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 88a8699c-fcd9-45aa-9364-3d6f391a35e6</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+		[SitecoreField(TwitterSettings.ConsumerKeyFieldName)]
+		public virtual string ConsumerKey  {get; set;}
+
+		public static readonly ID ConsumerKeyFieldId = new ID("88a8699c-fcd9-45aa-9364-3d6f391a35e6");
+		public const string ConsumerKeyFieldName = "ConsumerKey";
+			
+		/// <summary>
+		/// The ConsumerSecret field.
+		/// <para></para>
+		/// <para>Field Type: Single-Line Text</para>		
+		/// <para>Field ID: 747eb247-5d0e-448b-bea1-a500b0debd26</para>
+		/// <para>Custom Data: </para>
+		/// </summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+		[SitecoreField(TwitterSettings.ConsumerSecretFieldName)]
+		public virtual string ConsumerSecret  {get; set;}
+
+		public static readonly ID ConsumerSecretFieldId = new ID("747eb247-5d0e-448b-bea1-a500b0debd26");
+		public const string ConsumerSecretFieldName = "ConsumerSecret";
+			
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 namespace VirtualSummit.Models.sitecore.templates.VirtualSummit.Base
 {
 

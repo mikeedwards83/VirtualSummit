@@ -1,0 +1,13 @@
+@inherits Glass.Mapper.Sc.Razor.Web.Ui.TypedTemplate<VirtualSummit.Models.TweetList>
+              
+<h3>@Model.Username</h3>
+@if (Model.Tweets != null) { 
+    <ul>
+        @foreach (var tweet in Model.Tweets)
+        {
+            <li>
+                @Raw(tweet.TextAsHtml)
+            </li>
+        }
+    </ul>
+}
