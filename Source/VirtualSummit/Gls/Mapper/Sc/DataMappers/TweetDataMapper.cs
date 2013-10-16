@@ -26,7 +26,12 @@ namespace VirtualSummit.Gls.Mapper.Sc.DataMappers
 
         public override object GetFieldValue(string fieldValue, SitecoreFieldConfiguration config, SitecoreDataMappingContext context)
         {
-            return null;
+            var settings = context.Service.GetItem<TwitterSettings>(TweetCommand.SettingsPath);
+            TwitterService twitterService = new TwitterService(settings.ConsumerKey, settings.ConsumerSecret);
+            twitterService.AuthenticateWith(settings.AccessToken, settings.AccessTokenSecret);
+
+            return twitterService.ListTweetsOnUserTimeline(new ListTweetsOnUserTimelineOptions() { ScreenName = fieldValue });
+
         }
     }
 }

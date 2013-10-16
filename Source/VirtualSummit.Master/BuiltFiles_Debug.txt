@@ -1,8 +1,6 @@
 .\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.xml
 .\Debug\Global.asax
 .\Debug\packages.config
-.\Debug\App_Config\Include\Glass.Mapper.Sc.Mvc.config
-.\Debug\App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\BehindRazor.xml
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\DynamicRazor.xml
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\TypedRazor.xml
@@ -10,14 +8,16 @@
 .\Debug\Layouts\GlassRazor\DemoTyped.cshtml
 .\Debug\Views\FeaturedNews\Index.cshtml
 .\Debug\Layouts\MvcLayout.cshtml
+.\Debug\App_Config\Include\Glass.Mapper.Sc.Mvc.config
+.\Debug\App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude
 .\Debug\App_Config\Include\Glass.Mapper.Sc.Razor.config
 .\Debug\Layouts\GlassRazor\DemoDynamic.cshtml
 .\Debug\Layouts\GlassRazor\LazyLayout.cshtml
-.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
 .\Debug\Layouts\GlassRazor\DemoBehind.cshtml
 .\Debug\App_Config\Include\VirtualSummit.config
 .\Debug\Layouts\GlassRazor\TweetList.cshtml
 .\Debug\Layouts\GlassRazor\TipsAndTricks.cshtml
+.\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp
@@ -58,6 +58,9 @@
 .\Debug\bin\TweetSharp.dll
 .\Debug\bin\TweetSharp.pdb
 .\Debug\bin\VirtualSummit.dll
+.\Debug\bin\VirtualSummit.FSharp.dll
+.\Debug\bin\VirtualSummit.FSharp.pdb
+.\Debug\bin\VirtualSummit.FSharp.xml
 .\Debug\bin\VirtualSummit.pdb
 .\Debug\bin\WebActivator.dll
 .\Debug\bin\WebActivatorEx.dll

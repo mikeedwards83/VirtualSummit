@@ -31,7 +31,7 @@ namespace VirtualSummit.Controllers
 
             var featuredNews = SitecoreContext.GetCurrentItem<FeaturedNews>();
             viewModel.FeaturedNews = featuredNews;
-
+            viewModel.Articles = featuredNews.NewsArticles.OrderBy(x => x.Date).Where(x => x.Featured && x.Date < DateTime.Now);
 
             return View(viewModel);
 

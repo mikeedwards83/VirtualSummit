@@ -9,5 +9,6 @@ namespace VirtualSummit.ViewModels.TipsAndTricks
     {
         public Layouts.GlassRazor.TipsAndTricks.CustomPageTitles PageTitles { get; set; }
         public Layouts.GlassRazor.TipsAndTricks.ConstructorInjection Injected { get; set; }
+        public VirtualSummit.FSharp.FSharpModel FSharpModel { get; set; }
     }
 }

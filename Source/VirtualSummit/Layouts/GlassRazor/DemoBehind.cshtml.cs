@@ -8,7 +8,15 @@ namespace VirtualSummit.Layouts.GlassRazor
 	{
         public override DemoBehindModel GetModel()
         {
-            return new DemoBehindModel();
+            var item = GetDataSourceOrContextItem();
+
+            var model = new DemoBehindModel();
+            model.Page = SitecoreContext.CreateType<Models.sitecore.templates.VirtualSummit.Pages.General>(item);
+            model.IsPostback = Page.IsPostBack;
+
+
+            return model;
+
         }
 	}
 }

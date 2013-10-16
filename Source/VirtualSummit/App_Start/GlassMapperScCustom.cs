@@ -26,9 +26,9 @@ namespace VirtualSummit.App_Start
 
 		public static IConfigurationLoader[] GlassLoaders(){
 			var attributes = new SitecoreAttributeConfigurationLoader("VirtualSummit");
+            var twitter = Gls.TwitterLoader.Load();
 
-
-			return new IConfigurationLoader[]{attributes};
+			return new IConfigurationLoader[]{attributes, twitter};
 		}
 		public static void PostLoad(){
 			//Remove the comments to activate CodeFist
