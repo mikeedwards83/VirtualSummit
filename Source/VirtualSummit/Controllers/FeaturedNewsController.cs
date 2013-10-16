@@ -27,7 +27,14 @@ namespace VirtualSummit.Controllers
       
         public override ActionResult Index()
         {
-            return View();
+            var viewModel = new IndexGet();
+
+            var featuredNews = SitecoreContext.GetCurrentItem<FeaturedNews>();
+            viewModel.FeaturedNews = featuredNews;
+
+
+            return View(viewModel);
+
         }
     }
 }

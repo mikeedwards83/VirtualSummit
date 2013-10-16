@@ -26,8 +26,7 @@ namespace VirtualSummit.Gls.Mapper.Sc.DataMappers
 
         public override object GetFieldValue(string fieldValue, SitecoreFieldConfiguration config, SitecoreDataMappingContext context)
         {
-          return null;
-            
+            return null;
         }
     }
 }

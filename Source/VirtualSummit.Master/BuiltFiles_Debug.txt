@@ -16,6 +16,8 @@
 .\Debug\Data\Packages\Glass.Mapper.Sc.Razor.Package.zip
 .\Debug\Layouts\GlassRazor\DemoBehind.cshtml
 .\Debug\App_Config\Include\VirtualSummit.config
+.\Debug\Layouts\GlassRazor\TweetList.cshtml
+.\Debug\Layouts\GlassRazor\TipsAndTricks.cshtml
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp
 .\Debug\Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp

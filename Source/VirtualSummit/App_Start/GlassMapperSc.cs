@@ -23,10 +23,11 @@ namespace VirtualSummit.App_Start
 			//install the custom services
 			GlassMapperScCustom.CastleConfig(resolver.Container);
 
+
 			//create a context
 			var context = Glass.Mapper.Context.Create(resolver);
 			context.Load(      
-				GlassMapperScCustom.GlassLoaders()        				
+				GlassMapperScCustom.GlassLoaders()
 				);
 
 			GlassMapperScCustom.PostLoad();

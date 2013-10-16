@@ -8,7 +8,7 @@ namespace VirtualSummit.Layouts.GlassRazor
 	{
         public override DemoBehindModel GetModel()
         {
-            return null;
+            return new DemoBehindModel();
         }
 	}
 }

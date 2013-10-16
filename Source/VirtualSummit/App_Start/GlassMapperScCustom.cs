@@ -26,7 +26,8 @@ namespace VirtualSummit.App_Start
 
 		public static IConfigurationLoader[] GlassLoaders(){
 			var attributes = new SitecoreAttributeConfigurationLoader("VirtualSummit");
-		  
+
+
 			return new IConfigurationLoader[]{attributes};
 		}
 		public static void PostLoad(){
